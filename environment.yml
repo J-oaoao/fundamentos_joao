@@ -1,0 +1,9 @@
+name: env_joao
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python 
+  - beautifulsoup4
+  - numpy
+  - requests
