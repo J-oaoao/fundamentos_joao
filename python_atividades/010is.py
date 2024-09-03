@@ -1,0 +1,8 @@
+n = input("digite algo:")
+print(type(n))
+print("o tipo primitivo deste simbolo é {}" .format(type(n)))
+print(n.isalpha())
+print(n.isalnum())
+print(n.isdecimal())
+print(n.islower())
+print(n.isnumeric())

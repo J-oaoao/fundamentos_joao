@@ -1,0 +1,5 @@
+#!/home/labri_joaogonzaga/Documentos/fundamentos_joao/env/env_joao/bin/python3.12
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

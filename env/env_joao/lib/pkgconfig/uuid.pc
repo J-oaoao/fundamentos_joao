@@ -1,0 +1,11 @@
+prefix=/home/labri_joaogonzaga/Documentos/fundamentos_joao/env/env_joao
+exec_prefix=/home/labri_joaogonzaga/Documentos/fundamentos_joao/env/env_joao
+libdir=/home/labri_joaogonzaga/Documentos/fundamentos_joao/env/env_joao/lib
+includedir=/home/labri_joaogonzaga/Documentos/fundamentos_joao/env/env_joao/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
